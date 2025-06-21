@@ -1,7 +1,7 @@
 baseURL: "https://garrisec.tech"
 languageCode: "en-us"
 title: "Garrisec"
-theme: Garrisec
+theme: hugo-template
 
 outputs:
   home:
