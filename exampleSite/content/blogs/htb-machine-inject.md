@@ -15,7 +15,7 @@ toc:
 
 ## Introduction
 
-Injection is an HTB Linux machine that is vulnerable to LFI, Remote Code Execution and privilege escalation using cron jobs.
+Inject is an HTB Linux machine that is vulnerable to LFI, Remote Code Execution and privilege escalation using cron jobs.
 
 ## Enumeration
 
