@@ -161,7 +161,7 @@ params:
   about:
     enable: true
     title: "Sobre"
-    image: "/images/me.png"
+    image: "/images/me-profile.png"
     content: |-
       Tenho grande interesse na área de segurança da informação, com foco especial em aplicações web. Busco entender tanto como desenvolvê-las de forma segura quanto como realizar testes para identificar vulnerabilidades. Além disso, estudo temas fundamentais da Ciência da Computação, como redes de computadores, sistemas operacionais e arquitetura de sistemas. Acredito que dominar esses conceitos de base é essencial para construir, analisar e testar sistemas de maneira eficaz e segura.
     skills:
