@@ -8,7 +8,7 @@ tags:
   - Markdown syntax
   - Sample
   - example
-image: /images/htb-machine-inject.png
+image: /images/post.png
 description: ""
 toc:
 ---
