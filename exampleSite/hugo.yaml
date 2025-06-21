@@ -1,6 +1,6 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://garrisec.tech"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Garrisec"
 theme: hugo-profile
 
 outputs:
@@ -312,7 +312,7 @@ params:
     # title: "Custom Name"
     items:
       - title: Personal Budget
-        content: This software allows customers to create and manage a personal budget. Using the principles of Envelope Budgeting, the API allows users to manage budget envelopes and track the balance of each envelope.
+        content: Esse software permite que os clientes criem e gerenciem um orçamento pessoal. Usando os princípios do Envelope Budgeting, a API permite que os usuários gerenciem envelopes de orçamento e acompanhem o saldo de cada envelope.
         image: /images/projects/profile.png
         featured:
           name: Ver projeto
@@ -326,9 +326,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    content: Estou sempre aberto a oportunidades
+    btnName: Contato
+    btnLink: https://www.linkedin.com/in/andre-garrido-69a087352/
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -344,11 +344,8 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/Garrisec
+      linkedin: https://www.linkedin.com/in/andre-garrido-69a087352/
 
   # List pages like blogs and posts
   listPages:
