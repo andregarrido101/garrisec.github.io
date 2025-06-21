@@ -8,7 +8,7 @@ tags:
   - Emoji support
   - Sample
   - example
-image: /images/post.jpg
+image: /images/post.png
 description: ""
 toc: 
 ---
