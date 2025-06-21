@@ -137,7 +137,7 @@ params:
     title: "Garrisec."
     subtitle: "Sou um estudante de cybersecurity"
     content: "Tenho interesse na área de segurança, especialmente em aplicações web e seu desenvolvimento."
-    image: /images/hero.svg
+    image: /images/cartoon_portrait.svg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
