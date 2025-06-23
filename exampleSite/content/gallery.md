@@ -5,9 +5,9 @@ draft: false
 description: "Minha galeria"
 layout: "gallery"
 galleryImages:
- - src: /exampleSite/static/images/pet.jpg
- - src: exampleSite/static/images/coffee.jpg
- - src: exampleSite/static/images/gafanhoto.jpg
+ - src: /images/pet.jpg
+ - src: /images/coffee.jpg
+ - src: /images/gafanhoto.jpg
 viewer : true
 viewerOptions : {
     title: false
