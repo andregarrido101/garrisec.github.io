@@ -1,4 +1,4 @@
-baseURL: "https://garrisec.tech"
+pfbaseURL: "https://garrisec.tech"
 languageCode: "en-us"
 title: "Garrisec"
 theme: hugo-template
@@ -307,7 +307,7 @@ params:
         #url: https://example.com
 
   # projects
-  projects:
+  Projetos:
     enable: true
     # title: "Custom Name"
     items:
