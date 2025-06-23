@@ -309,7 +309,7 @@ params:
   # projects
   projects:
     enable: true
-    # title: "Custom Name"
+    title: "Projetos"
     items:
       - title: Personal Budget
         content: Esse software permite que os clientes criem e gerenciem um orçamento pessoal. Usando os princípios do Envelope Budgeting, a API permite que os usuários gerenciem envelopes de orçamento e acompanhem o saldo de cada envelope.
@@ -325,7 +325,7 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
+    title: "Contato"
     content: Estou sempre aberto a oportunidades
     btnName: Contato
     btnLink: https://www.linkedin.com/in/andre-garrido-69a087352/
@@ -340,7 +340,7 @@ params:
     recentPosts:
       path: "blogs"
       count: 3
-      title: Recent Posts
+      title: Posts Recentes
       enable: true
       disableFeaturedImage: false
     socialNetworks:
