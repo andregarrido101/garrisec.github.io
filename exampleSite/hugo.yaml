@@ -175,6 +175,7 @@ params:
         - "Express"
         - "Burp Suite"
         - "Wireshark"
+        - "Redis"
 
   # Experience
   #experience:
