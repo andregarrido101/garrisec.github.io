@@ -321,6 +321,16 @@ params:
           - "Node"
           - "Express"
           - "Postgres"
+      - title: Weather API
+        content: Neste projeto, em vez de confiar em meus próprios dados meteorológicos, criei uma API meteorológica que busca e retorna dados meteorológicos de uma API de terceiros. Este projeto me ajudou a entender como trabalhar com APIs de terceiros, cache e variáveis de ambiente.
+        image: /images/projects/weather-api-ui.png
+        featured:
+          name: Ver projeto
+          link: https://github.com/Garrisec/WeatherAPI
+        badges:
+          - "Node"
+          - "Express"
+          - "Redis"  
 
   #Contact
   contact:
