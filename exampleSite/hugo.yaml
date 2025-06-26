@@ -331,7 +331,17 @@ params:
         badges:
           - "Node"
           - "Express"
-          - "Redis"  
+          - "Redis"
+      - title: Simples Web Server
+        content: Esse é um projeto feito no Packet Tracer onde simula um servidor web conectado a dois hosts por um switch.
+        image: /images/projects/image.png
+        featured:
+          name: Ver projeto
+          link: https://github.com/Garrisec/Simple-Web-Server
+        badges:
+          - "HTTP"
+          - "Packet Tracer"
+          - "Switch"
 
   #Contact
   contact:
