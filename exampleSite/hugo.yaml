@@ -342,6 +342,7 @@ params:
           - "HTTP"
           - "Packet Tracer"
           - "Switch"
+          - "Web Server"
 
   #Contact
   contact:
