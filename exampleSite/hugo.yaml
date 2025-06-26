@@ -362,7 +362,7 @@ params:
     recentPosts:
       path: "blogs"
       count: 3
-      title: Posts Recentes
+      title: Posts Recentes (**MANUTENÇÃO**)
       enable: true
       disableFeaturedImage: false
     socialNetworks:
