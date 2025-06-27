@@ -26,6 +26,7 @@ I've created an image that tries to illustrate the process of a social engineeri
 > If you're viewing it on your cell phone, zoom in or turn it sideways to see the image better.
 
 ![Social-Engineering-Process](/exampleSite/static/images/image.png)
+![[/exampleSite/static/images/image.png]]
 
 ## How to Avoid
 
