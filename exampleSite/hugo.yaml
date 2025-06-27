@@ -144,7 +144,7 @@ params:
     button:
       enable: true
       name: "Currículo"
-      url: "https://github.com/Garrisec/garrisec.github.io/blob/master/exampleSite/static/Marcio%20Andre%20Garrido%20de%20Souza-7.pdf"
+      url: "/static/Marcio%20Andre%20Garrido%20de%20Souza-7.pdf"
       download: true
       newPage: false
     socialLinks:
