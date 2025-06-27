@@ -152,7 +152,6 @@ params:
         - icon: fab fa-github
           url: https://github.com/Garrisec
       customIcons:
-        - icon: 
 
   # About
   about:
