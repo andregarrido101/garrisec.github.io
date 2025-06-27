@@ -314,7 +314,7 @@ params:
     items:
       - title: Personal Budget
         content: Esse software permite que os clientes criem e gerenciem um orçamento pessoal. Usando os princípios do Envelope Budgeting, a API permite que os usuários gerenciem envelopes de orçamento e acompanhem o saldo de cada envelope.
-        image: /images/projects/project-personal-budget.png
+        image: /images/projects/Gemini_Generated_Image_muqnf0muqnf0muqn.png
         featured:
           name: Ver projeto
           link: https://github.com/Garrisec/garrisec-project-personal-budget
