@@ -137,7 +137,7 @@ params:
     title: "Andre Garrido."
     subtitle: "Sou um estudante de cybersecurity"
     content: "Tenho interesse na área de segurança, especialmente em aplicações web e seu desenvolvimento."
-    image: /images/profile-me.png
+    image: exampleSite/static/images/profile-me.png
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
