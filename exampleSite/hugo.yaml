@@ -144,7 +144,7 @@ params:
     button:
       enable: true
       name: "Currículo"
-      url: "https://drive.google.com/file/d/1OJbhDvsDk8-art2VbN16GXnFedYjKpn7/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1WonTxXPPZvdrTmQ20a0mI4tkRMeSkioP/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
