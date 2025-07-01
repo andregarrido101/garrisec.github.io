@@ -135,7 +135,7 @@ params:
     enable: true
     intro: "Olá, meu nome é"
     title: "Andre Garrido."
-    subtitle: "Sou um estudante de cybersecurity"
+    subtitle: "Sou um estudante de computação"
     content: "Tenho interesse na área de segurança, especialmente em aplicações web e seu desenvolvimento."
     image: /images/my-profile.png
     bottomImage:
