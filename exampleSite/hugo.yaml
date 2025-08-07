@@ -1,6 +1,6 @@
 pfbaseURL: "https://garrisec.tech"
 languageCode: "en-us"
-title: "Garrisec"
+title: "Andre Garrido"
 theme: hugo-template
 
 outputs:
@@ -136,7 +136,7 @@ params:
     intro: "Olá, meu nome é"
     title: "Andre Garrido."
     subtitle: "Sou um estudante de computação"
-    content: "Tenho interesse na área de segurança, especialmente em aplicações web e seu desenvolvimento."
+    content: "Tenho interesse em aplicações web e na área de segurança."
     image: /images/my-profile.png
     bottomImage:
       enable: true
@@ -159,7 +159,7 @@ params:
     title: "Sobre"
     image: "/images/my-profile.png"
     content: |-
-      Tenho grande interesse na área de segurança da informação, com foco especial em aplicações web. Busco entender tanto como desenvolvê-las de forma segura quanto como realizar testes para identificar vulnerabilidades. Além disso, estudo temas fundamentais da Ciência da Computação, como redes de computadores, sistemas operacionais, banco de dados... Acredito que dominar esses conceitos de base é essencial para construir, analisar e testar sistemas de maneira eficaz e segura.
+      Tenho grande interesse em back-end. Busco entender tanto como desenvolvê-las de forma segura quanto como realizar testes para identificar vulnerabilidades. Além disso, estudo temas fundamentais da Ciência da Computação, como redes de computadores, sistemas operacionais, banco de dados... Acredito que dominar esses conceitos de base é essencial para construir, analisar e testar sistemas de maneira eficaz e segura.
     skills:
       enable: true
       title: "Aqui estão algumas tecnologias que mais utilizo:"
@@ -172,6 +172,7 @@ params:
         - "Burp Suite"
         - "Wireshark"
         - "Redis"
+        - "Postgres"
 
   # Experience
   #experience:
@@ -395,3 +396,4 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
