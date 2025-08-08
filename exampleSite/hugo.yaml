@@ -144,7 +144,7 @@ params:
     button:
       enable: true
       name: "Currículo"
-      url: "https://drive.google.com/file/d/1WonTxXPPZvdrTmQ20a0mI4tkRMeSkioP/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1s738nXGGYpArviUlT1UHhn-cNvBpHGA8/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -407,6 +407,7 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
 
 
 
