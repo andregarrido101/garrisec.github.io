@@ -60,7 +60,7 @@ Menus:
 
 params:
   title: "Andre Garrido"
-  description: Text about my cool site
+  description: My portfolio 
   # staticPath: ""  # The path to serve the static files from
   favicon: "/icon.png"
 
@@ -407,6 +407,7 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
 
 
 
