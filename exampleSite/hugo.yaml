@@ -347,7 +347,7 @@ params:
           name: Ver projeto
           link: https://github.com/Garrisec/Scalable-E-Commerce-Platform-
         badges:
-          - "Microservices
+          - "Microservices"
           - "Database"
           - "Docker"
           - "Authentication"
@@ -407,6 +407,7 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
 
 
 
