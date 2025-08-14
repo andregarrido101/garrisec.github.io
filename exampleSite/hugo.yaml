@@ -311,6 +311,18 @@ params:
     enable: true
     title: "Projetos"
     items:
+      - title: E-Commerce
+        content: Plataforma de e-commerce escalável usando arquitetura de microsserviços criada com Ruby on Rails. A plataforma lida com vários aspectos de uma loja online, como gerenciamento de catálogo de produtos, autenticação de usuários, carrinho de compras, processamento de pagamentos e gerenciamento de pedidos. Cada um desses recursos é implementado como microsserviços separados, permitindo desenvolvimento, implantação e escalonamento independentes.
+        image: /images/projects/Screenshot from 2025-08-07 12-39-03.png
+        featured:
+          name: Ver projeto
+          link: https://github.com/Garrisec/Scalable-E-Commerce-Platform-
+        badges:
+          - "Ruby on Rails"
+          - "Microservices"
+          - "Database"
+          - "Docker"
+          - "Authentication"
       - title: Personal Budget
         content: Esse software permite que os clientes criem e gerenciem um orçamento pessoal. Usando os princípios do Envelope Budgeting, a API permite que os usuários gerenciem envelopes de orçamento e acompanhem o saldo de cada envelope.
         image: /images/projects/Gemini_Generated_Image_muqnf0muqnf0muqn.png
@@ -342,17 +354,6 @@ params:
           - "Packet Tracer"
           - "Switch"
           - "Web Server"
-      - title: E-Commerce (EM DESENVOLVIMENTO)
-        content: Plataforma de e-commerce escalável usando arquitetura de microsserviços. A plataforma lida com vários aspectos de uma loja online, como gerenciamento de catálogo de produtos, autenticação de usuários, carrinho de compras, processamento de pagamentos e gerenciamento de pedidos. Cada um desses recursos é implementado como microsserviços separados, permitindo desenvolvimento, implantação e escalonamento independentes.
-        image: /images/projects/Screenshot from 2025-08-07 12-39-03.png
-        featured:
-          name: Ver projeto
-          link: https://github.com/Garrisec/Scalable-E-Commerce-Platform-
-        badges:
-          - "Microservices"
-          - "Database"
-          - "Docker"
-          - "Authentication"
           
   #Contact
   contact:
@@ -409,6 +410,7 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
 
 
 
