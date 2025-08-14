@@ -316,7 +316,7 @@ params:
         image: /images/projects/Screenshot from 2025-08-07 12-39-03.png
         featured:
           name: Ver projeto
-          link: https://github.com/Garrisec/Scalable-E-Commerce-Platform-
+          link: https://github.com/Garrisec/Store
         badges:
           - "Ruby on Rails"
           - "Microservices"
@@ -410,6 +410,7 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
 
 
 
