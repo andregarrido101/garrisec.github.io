@@ -150,7 +150,7 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://github.com/Garrisec
+          url: https://github.com/andregarrido101
       customIcons:
 
   # About
@@ -410,6 +410,7 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
 
 
 
